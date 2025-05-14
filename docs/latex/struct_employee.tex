@@ -1,0 +1,139 @@
+\doxysection{Employee Struct Reference}
+\hypertarget{struct_employee}{}\label{struct_employee}\index{Employee@{Employee}}
+
+
+Представляет данные сотрудника.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{struct_employee_a6a266789092371db05a67837bfa4f607}{operator$<$}} (const \mbox{\hyperlink{struct_employee}{Employee}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Сравнение сотрудников по отделу, ФИО, дате поступления и должности. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{struct_employee_a5b97e6c77a38da5127cad5d8f60d0d4d}{operator$>$}} (const \mbox{\hyperlink{struct_employee}{Employee}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Обратная проверка оператора \texorpdfstring{$<$}{<}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{struct_employee_a2813ad09c53d010d225095fb4c0994b1}{operator$<$=}} (const \mbox{\hyperlink{struct_employee}{Employee}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Проверка оператора \texorpdfstring{$<$}{<}=. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{struct_employee_a5d7c4c62ccd9e20b185383ec43eefbd8}{operator$>$=}} (const \mbox{\hyperlink{struct_employee}{Employee}} \&rhs) const
+\begin{DoxyCompactList}\small\item\em Проверка оператора \texorpdfstring{$>$}{>}=. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{struct_employee_a036e1256a10b6d2748780b6ad025aeda}{full\+Name}}
+\item 
+std\+::string \mbox{\hyperlink{struct_employee_ac430c78ff0f13b83ab065f69907ec143}{department}}
+\item 
+std\+::string \mbox{\hyperlink{struct_employee_aff8eacef4f7f05249658ed06555054db}{position}}
+\item 
+std\+::string \mbox{\hyperlink{struct_employee_a7ba1fb89d682ddc258c231c44ebed57f}{hire\+Date}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Представляет данные сотрудника. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{struct_employee_a6a266789092371db05a67837bfa4f607}\index{Employee@{Employee}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily \label{struct_employee_a6a266789092371db05a67837bfa4f607} 
+bool Employee\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_employee}{Employee}} \&}]{rhs}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Сравнение сотрудников по отделу, ФИО, дате поступления и должности. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & Правый операнд для сравнения \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если текущий объект меньше rhs 
+\end{DoxyReturn}
+\Hypertarget{struct_employee_a2813ad09c53d010d225095fb4c0994b1}\index{Employee@{Employee}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{operator$<$=()}{operator<=()}}
+{\footnotesize\ttfamily \label{struct_employee_a2813ad09c53d010d225095fb4c0994b1} 
+bool Employee\+::operator$<$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_employee}{Employee}} \&}]{rhs}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Проверка оператора \texorpdfstring{$<$}{<}=. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & Правый операнд для сравнения \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если текущий объект меньше или равен rhs 
+\end{DoxyReturn}
+\Hypertarget{struct_employee_a5b97e6c77a38da5127cad5d8f60d0d4d}\index{Employee@{Employee}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily \label{struct_employee_a5b97e6c77a38da5127cad5d8f60d0d4d} 
+bool Employee\+::operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_employee}{Employee}} \&}]{rhs}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Обратная проверка оператора \texorpdfstring{$<$}{<}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & Правый операнд для сравнения \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если текущий объект больше rhs 
+\end{DoxyReturn}
+\Hypertarget{struct_employee_a5d7c4c62ccd9e20b185383ec43eefbd8}\index{Employee@{Employee}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{operator$>$=()}{operator>=()}}
+{\footnotesize\ttfamily \label{struct_employee_a5d7c4c62ccd9e20b185383ec43eefbd8} 
+bool Employee\+::operator$>$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_employee}{Employee}} \&}]{rhs}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Проверка оператора \texorpdfstring{$>$}{>}=. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & Правый операнд для сравнения \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если текущий объект больше или равен rhs 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{struct_employee_ac430c78ff0f13b83ab065f69907ec143}\index{Employee@{Employee}!department@{department}}
+\index{department@{department}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{department}{department}}
+{\footnotesize\ttfamily \label{struct_employee_ac430c78ff0f13b83ab065f69907ec143} 
+std\+::string Employee\+::department}
+
+Название отдела \Hypertarget{struct_employee_a036e1256a10b6d2748780b6ad025aeda}\index{Employee@{Employee}!fullName@{fullName}}
+\index{fullName@{fullName}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{fullName}{fullName}}
+{\footnotesize\ttfamily \label{struct_employee_a036e1256a10b6d2748780b6ad025aeda} 
+std\+::string Employee\+::full\+Name}
+
+ФИО сотрудника \Hypertarget{struct_employee_a7ba1fb89d682ddc258c231c44ebed57f}\index{Employee@{Employee}!hireDate@{hireDate}}
+\index{hireDate@{hireDate}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{hireDate}{hireDate}}
+{\footnotesize\ttfamily \label{struct_employee_a7ba1fb89d682ddc258c231c44ebed57f} 
+std\+::string Employee\+::hire\+Date}
+
+Дата поступления в формате YYYY-\/\+MM-\/\+DD \Hypertarget{struct_employee_aff8eacef4f7f05249658ed06555054db}\index{Employee@{Employee}!position@{position}}
+\index{position@{position}!Employee@{Employee}}
+\doxysubsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily \label{struct_employee_aff8eacef4f7f05249658ed06555054db} 
+std\+::string Employee\+::position}
+
+Должность 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}
